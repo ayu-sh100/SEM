@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Alert</title>
+    <style>
+        /* Add your custom email styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #e74c3c; /* Red color for alert */
+        }
+
+        p {
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e74c3c; /* Red color for alert */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment Notification</h1>
+                <p>Hello {{user}},</p>
+                <p>You have been assigned a new assignment</p>
+                <p><strong>Assignment Title:</strong> {{assignment}}</p>
+                <p><strong>Assignment Description:</strong> {{summary}}</p>
+                <p>Thank you!</p>
+    </div>
+</body>
+</html>
